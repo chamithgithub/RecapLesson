@@ -1,3 +1,8 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.ListIterator;
+
 public class Reverse {
     public static void main(String[] args) {
         //method 1
@@ -33,7 +38,16 @@ public class Reverse {
 //        method 4
 //        using collection
 
+        char[] chars = name.toCharArray();
+        List<Character> list=new ArrayList<Character>();
+        for (Character character: chars ){
+        list.add(character);
+        }
+        Collections.reverse(list);
 
-
+        ListIterator listIterator = list.listIterator();
+        while (listIterator.hasNext()){
+            System.out.print(listIterator.next());  //println remove
+        }
     }
 }
