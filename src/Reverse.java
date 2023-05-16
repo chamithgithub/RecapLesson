@@ -27,8 +27,8 @@ public class Reverse {
 
 //        method 3
 //        StringBuffer
-
-
+    StringBuffer stringBuffer=new StringBuffer(name);
+        System.out.println(stringBuffer.reverse());
 
     }
 }
