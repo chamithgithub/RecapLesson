@@ -17,13 +17,18 @@ public class Reverse {
         //method 2
         //charactorArray
 
-        char[] chars = name.toCharArray();
-        int length = chars.length;
+//        char[] chars = name.toCharArray();
+//        int length = chars.length;
+//
+//        for (int i=length-1 ; i>=0; i--){
+//            reverse=reverse+chars[i];
+//        }
+//        System.out.println(reverse);
 
-        for (int i=length-1 ; i>=0; i--){
-            reverse=reverse+chars[i];
-        }
-        System.out.println(reverse);
+//        method 3
+//        StringBuffer
+
+
 
     }
 }
