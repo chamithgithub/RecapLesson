@@ -15,7 +15,7 @@ public class Reverse {
 //        System.out.println(reverse);
 
         //method 2
-        //charactorArray
+        //charactorArraybe li
 
 //        char[] chars = name.toCharArray();
 //        int length = chars.length;
